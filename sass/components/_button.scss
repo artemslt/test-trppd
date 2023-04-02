@@ -1,0 +1,16 @@
+.button {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 8px 24px;
+  border-radius: 50px;
+  background-color: $main-accent-color;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: scale 250ms $animation-cube;
+
+  &:hover,
+  :focus {
+    scale: 1.05;
+  }
+}

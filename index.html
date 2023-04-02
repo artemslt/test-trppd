@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>trppd_</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header">
+        <div class="logo">
+          <a class="logo__link" href="/">trppd_</a>
+        </div>
+        <div class="header__menu">
+          <a class="header__link" href="#">My collection</a>
+          <div class="header__divider"></div>
+          <div class="account__button">
+            <a class="header__link" href="#">Galih Pambudi</a>
+            <div class="account__logo"></div>
+            <button
+              class="navigation__menu-button"
+              type="button"
+              aria-controls="header__list"
+              aria-expanded="false"
+              data-menu-button
+            >
+              <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                <use
+                  class="header__icon-menu"
+                  href="/images/icons/symbol-defs.svg#icon-mobmenu"
+                ></use>
+                <use
+                  class="header__icon-close"
+                  href="/images/icons/symbol-defs.svg#icon-close-mobmenu"
+                ></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero container overlay">
+        <nav class="navigation" data-menu>
+          <ul class="navigation__list">
+            <li class="navigation__item active">
+              <a href="/">Home</a>
+              <div class="underline"></div>
+            </li>
+            <li class="navigation__item">
+              <a href="/">Recommendation</a>
+            </li>
+            <li class="navigation__item">
+              <a href="/">Explore</a>
+            </li>
+            <li class="navigation__item">
+              <a href="/">Help</a>
+            </li>
+            <li class="navigation__item">
+              <a href="/">About us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="hero__slider">
+          <div>
+            <h1 class="hero__title">The Walshen Lake</h1>
+            <p class="hero__text">
+              One of the deepest and largest alpine lakes in Germany <br />
+              and one of the best outdoors place <br />
+              that you never imagine before
+            </p>
+            <button id="hero-btn" type="button" class="button hero-btn">Read More</button>
+          </div>
+          <div class="slider">
+            <button class="slider__button hero-slider left">
+              <img src="/images/icons/left-arrow-svgrepo-com.svg" alt="left image" />
+            </button>
+            <button class="slider__button hero-slider right">
+              <img src="/images/icons/right-arrow.svg" alt="right image" />
+            </button>
+            <p class="slider__text">Outdoors Edition</p>
+            <div class="line__long"><div class="line"></div></div>
+            <p class="counter">1 / 8</p>
+            <div class="line__short"><div class="line"></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container feature">
+        <div>
+          <h3 class="feature__title">Featured Spots</h3>
+          <p class="feature__text">
+            Some of featured spot that you might want visit before you die
+          </p>
+          <a class="feature__link" href="#">View All</a>
+        </div>
+        <div class="feature__list-wrapper">
+          <ul class="feature__list">
+            <li class="feature__card">
+              <img
+                src="/images/feature/ollantaytambo.jpg"
+                alt="Ollantaytambo"
+                width="200"
+                height="192"
+              />
+              <h4 class="feature__card__title">Ollantaytambo</h4>
+              <h5 class="feature__card__country">Peru</h5>
+              <p class="feature__card__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptates
+                doloremque sed deleniti consequatur
+              </p>
+              <a class="feature__card__link" href="#">read more</a>
+            </li>
+            <li class="feature__card">
+              <img
+                src="/images/feature/antelope_canyon.jpg"
+                alt="antelope canyon"
+                width="200"
+                height="192"
+              />
+              <h4 class="feature__card__title">Antelope Canyon</h4>
+              <h5 class="feature__card__country">USA</h5>
+              <p class="feature__card__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptates
+                doloremque sed deleniti consequatur
+              </p>
+              <a class="feature__card__link" href="#">read more</a>
+            </li>
+            <li class="feature__card">
+              <img
+                src="/images/feature/lake_louise.jpg"
+                alt="lake louise"
+                width="200"
+                height="192"
+              />
+              <h4 class="feature__card__title">Lake Louise</h4>
+              <h5 class="feature__card__country">Canada</h5>
+              <p class="feature__card__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptates
+                doloremque sed deleniti consequatur
+              </p>
+              <a class="feature__card__link" href="#">read more</a>
+            </li>
+            <li class="feature__card">
+              <img
+                src="/images/feature/ollantaytambo.jpg"
+                alt="Ollantaytambo"
+                width="200"
+                height="192"
+              />
+              <h4 class="feature__card__title">Ollantaytambo</h4>
+              <h5 class="feature__card__country">Peru</h5>
+              <p class="feature__card__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptates
+                doloremque sed deleniti consequatur
+              </p>
+              <a class="feature__card__link" href="#">read more</a>
+            </li>
+            <li class="feature__card">
+              <img
+                src="/images/feature/antelope_canyon.jpg"
+                alt="antelope canyon"
+                width="200"
+                height="192"
+              />
+              <h4 class="feature__card__title">Antelope Canyon</h4>
+              <h5 class="feature__card__country">USA</h5>
+              <p class="feature__card__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptates
+                doloremque sed deleniti consequatur
+              </p>
+              <a class="feature__card__link" href="#">read more</a>
+            </li>
+            <li class="feature__card">
+              <img
+                src="/images/feature/lake_louise.jpg"
+                alt="lake louise"
+                width="200"
+                height="192"
+              />
+              <h4 class="feature__card__title">Lake Louise</h4>
+              <h5 class="feature__card__country">Canada</h5>
+              <p class="feature__card__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptates
+                doloremque sed deleniti consequatur
+              </p>
+              <a class="feature__card__link" href="#">read more</a>
+            </li>
+          </ul>
+          <div class="slider feature__slider">
+            <p class="slider__text">Outdoors Edition</p>
+            <div class="line__long"><div class="line"></div></div>
+            <p class="counter">1 / 8</p>
+            <div class="line__short"><div class="line"></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container above">
+        <img src="/images/above-the-sea.jpg" alt="above the sea" width="425" height="425" />
+
+        <div>
+          <h2 class="above__title">Above The Sea</h2>
+          <p class="above__text">
+            " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, officia. "
+          </p>
+          <p class="above__desscription">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta modi beatae, odit neque
+            repellat quasi minima rem, necessitatibus, debitis ab minus enim deserunt fuga.
+            Exercitationem alias eum reiciendis voluptas.
+          </p>
+          <p class="above__desscription">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur atque, rem cum error
+            adipisci excepturi porro, libero veniam reprehenderit facere voluptatibus commodi qui
+            aperiam quibusdam fugiat minus, dolores vero deleniti maxime! Quis laudantium quae
+            dolorum quas beatae quibusdam illum, nihil molestias assumenda eius blanditiis nisi
+          </p>
+          <button class="button above__button" type="button">Read More</button>
+        </div>
+      </section>
+
+      <section class="container editorPick">
+        <div>
+          <h3 class="editorPick__title">
+            Editor's <br />
+            Pick
+          </h3>
+          <p class="editorPick__text">
+            Our picks, just for you nam an vidisse admondum omittantur, nihil corrumpit
+          </p>
+        </div>
+        <div>
+          <div class="slider editorPick__slider">
+            <button id="editorBtn-left" class="slider__button left">
+              <img src="/images/icons/left-arrow-svgrepo-com.svg" alt="left image" />
+            </button>
+            <button id="editorBtn-right" class="slider__button right">
+              <img src="/images/icons/right-arrow.svg" alt="right image" />
+            </button>
+            <p class="slider__text">Outdoors Edition</p>
+            <div class="line__long"><div class="line"></div></div>
+            <p id="editor-counter" class="counter">1 / 3</p>
+            <div class="line__short"><div class="line"></div></div>
+            <div>
+              <button class="editorPick__sort-button" type="button">
+                sort by
+                <div></div>
+              </button>
+              <ul class="editorPick__sort-list">
+                <li>
+                  <button class="editorPick__sort-item" type="button">by name</button>
+                </li>
+                <li>
+                  <button class="editorPick__sort-item" type="button">by country</button>
+                </li>
+              </ul>
+            </div>
+            <div class="line__short"><div class="line"></div></div>
+          </div>
+
+          <ul id="editor-list" class="editorPick__list">
+            <li class="editorPick__thumb active">
+              <img src="/images/editors/flatiron.jpg" alt="flatiron" width="100%" height="100%" />
+              <div class="editorPick__discription">
+                <h3 class="editorPick__discr-title">Flatrion</h3>
+                <h4 class="editorPick__discr-country">USA</h4>
+                <p class="editorPick__discr-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium odio
+                  corrupti amet veniam ut voluptate, exercitationem architecto voluptatibus facere.
+                </p>
+              </div>
+            </li>
+            <li class="editorPick__thumb">
+              <img src="/images/editors/gate.jpg" alt="china gate" width="100%" height="100%" />
+              <div class="editorPick__discription">
+                <h3 class="editorPick__discr-title">Flatrion</h3>
+                <h4 class="editorPick__discr-country">USA</h4>
+                <p class="editorPick__discr-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium odio
+                  corrupti amet veniam ut voluptate, exercitationem architecto voluptatibus facere.
+                </p>
+              </div>
+            </li>
+            <li class="editorPick__thumb passive">
+              <img
+                src="/images/editors/canyon.jpg"
+                alt="antelope canyon"
+                width="100%"
+                height="100%"
+              />
+              <div class="editorPick__discription">
+                <h3 class="editorPick__discr-title">Flatrion</h3>
+                <h4 class="editorPick__discr-country">USA</h4>
+                <p class="editorPick__discr-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium odio
+                  corrupti amet veniam ut voluptate, exercitationem architecto voluptatibus facere.
+                </p>
+              </div>
+            </li>
+            <li class="editorPick__thumb">
+              <img
+                src="/images/editors/golden-gate.jpg"
+                alt="golden gate"
+                width="100%"
+                height="100%"
+              />
+              <div class="editorPick__discription">
+                <h3 class="editorPick__discr-title">Flatrion</h3>
+                <h4 class="editorPick__discr-country">USA</h4>
+                <p class="editorPick__discr-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium odio
+                  corrupti amet veniam ut voluptate, exercitationem architecto voluptatibus facere.
+                </p>
+              </div>
+            </li>
+            <li class="editorPick__thumb">
+              <img src="/images/editors/snow-road.jpg" alt="snow road" width="100%" height="100%" />
+              <div class="editorPick__discription">
+                <h3 class="editorPick__discr-title">Flatrion</h3>
+                <h4 class="editorPick__discr-country">USA</h4>
+                <p class="editorPick__discr-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium odio
+                  corrupti amet veniam ut voluptate, exercitationem architecto voluptatibus facere.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <ul id="editor-list" class="editorPick__list visually-hidden">
+            <li class="editorPick__thumb">
+              <img src="/images/editors/flatiron.jpg" alt="flatiron" width="100%" height="100%" />
+              <div class="editorPick__discription">
+                <h3 class="editorPick__discr-title">Flatrion</h3>
+                <h4 class="editorPick__discr-country">USA</h4>
+                <p class="editorPick__discr-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium odio
+                  corrupti amet veniam ut voluptate, exercitationem architecto voluptatibus facere.
+                </p>
+              </div>
+            </li>
+            <li class="editorPick__thumb active">
+              <img src="/images/editors/gate.jpg" alt="china gate" width="100%" height="100%" />
+              <div class="editorPick__discription">
+                <h3 class="editorPick__discr-title">Flatrion</h3>
+                <h4 class="editorPick__discr-country">USA</h4>
+                <p class="editorPick__discr-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium odio
+                  corrupti amet veniam ut voluptate, exercitationem architecto voluptatibus facere.
+                </p>
+              </div>
+            </li>
+            <li class="editorPick__thumb passive">
+              <img
+                src="/images/editors/canyon.jpg"
+                alt="antelope canyon"
+                width="100%"
+                height="100%"
+              />
+              <div class="editorPick__discription">
+                <h3 class="editorPick__discr-title">Flatrion</h3>
+                <h4 class="editorPick__discr-country">USA</h4>
+                <p class="editorPick__discr-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium odio
+                  corrupti amet veniam ut voluptate, exercitationem architecto voluptatibus facere.
+                </p>
+              </div>
+            </li>
+            <li class="editorPick__thumb">
+              <img
+                src="/images/editors/golden-gate.jpg"
+                alt="golden gate"
+                width="100%"
+                height="100%"
+              />
+              <div class="editorPick__discription">
+                <h3 class="editorPick__discr-title">Flatrion</h3>
+                <h4 class="editorPick__discr-country">USA</h4>
+                <p class="editorPick__discr-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium odio
+                  corrupti amet veniam ut voluptate, exercitationem architecto voluptatibus facere.
+                </p>
+              </div>
+            </li>
+            <li class="editorPick__thumb">
+              <img src="/images/editors/snow-road.jpg" alt="snow road" width="100%" height="100%" />
+              <div class="editorPick__discription">
+                <h3 class="editorPick__discr-title">Flatrion</h3>
+                <h4 class="editorPick__discr-country">USA</h4>
+                <p class="editorPick__discr-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium odio
+                  corrupti amet veniam ut voluptate, exercitationem architecto voluptatibus facere.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <ul id="editor-list" class="editorPick__list visually-hidden">
+            <li class="editorPick__thumb">
+              <img src="/images/editors/flatiron.jpg" alt="flatiron" width="100%" height="100%" />
+              <div class="editorPick__discription">
+                <h3 class="editorPick__discr-title">Flatrion</h3>
+                <h4 class="editorPick__discr-country">USA</h4>
+                <p class="editorPick__discr-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium odio
+                  corrupti amet veniam ut voluptate, exercitationem architecto voluptatibus facere.
+                </p>
+              </div>
+            </li>
+            <li class="editorPick__thumb">
+              <img src="/images/editors/gate.jpg" alt="china gate" width="100%" height="100%" />
+              <div class="editorPick__discription">
+                <h3 class="editorPick__discr-title">Flatrion</h3>
+                <h4 class="editorPick__discr-country">USA</h4>
+                <p class="editorPick__discr-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium odio
+                  corrupti amet veniam ut voluptate, exercitationem architecto voluptatibus facere.
+                </p>
+              </div>
+            </li>
+            <li class="editorPick__thumb passive">
+              <img
+                src="/images/editors/canyon.jpg"
+                alt="antelope canyon"
+                width="100%"
+                height="100%"
+              />
+              <div class="editorPick__discription">
+                <h3 class="editorPick__discr-title">Flatrion</h3>
+                <h4 class="editorPick__discr-country">USA</h4>
+                <p class="editorPick__discr-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium odio
+                  corrupti amet veniam ut voluptate, exercitationem architecto voluptatibus facere.
+                </p>
+              </div>
+            </li>
+            <li class="editorPick__thumb active">
+              <img
+                src="/images/editors/golden-gate.jpg"
+                alt="golden gate"
+                width="100%"
+                height="100%"
+              />
+              <div class="editorPick__discription">
+                <h3 class="editorPick__discr-title">Flatrion</h3>
+                <h4 class="editorPick__discr-country">USA</h4>
+                <p class="editorPick__discr-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium odio
+                  corrupti amet veniam ut voluptate, exercitationem architecto voluptatibus facere.
+                </p>
+              </div>
+            </li>
+            <li class="editorPick__thumb">
+              <img src="/images/editors/snow-road.jpg" alt="snow road" width="100%" height="100%" />
+              <div class="editorPick__discription">
+                <h3 class="editorPick__discr-title">Flatrion</h3>
+                <h4 class="editorPick__discr-country">USA</h4>
+                <p class="editorPick__discr-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium odio
+                  corrupti amet veniam ut voluptate, exercitationem architecto voluptatibus facere.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="container collection">
+        <h2 class="collection__title">Mountain collection</h2>
+        <p class="collection__discription">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam similique corrupti
+          inventore molestias soluta, provident ipsa
+        </p>
+
+        <article class="post">
+          <div>
+            <h3 class="post__title">Southern mountain</h3>
+            <p class="post__place">South country</p>
+            <p class="post__discription">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione possimus, magni
+              dicta itaque adipisci assumenda quisquam dolorem eligendi amet vero fugit blanditiis
+              debitis nam esse nesciunt cumque impedit. Impedit, dolores voluptatibus placeat est
+            </p>
+            <p class="post__dscr">
+              dicta itaque adipisci assumenda quisquam dolorem eligendi amet vero fugit blanditiis
+              debitis nam esse nesciunt cumque impedit. Impedit, dolores voluptatibus placeat est
+            </p>
+            <button class="button" type="button">Read More</button>
+          </div>
+          <img
+            src="/images/collection/southern-mountain.jpg"
+            alt="Southern mountain"
+            width="192"
+            height="192"
+          />
+        </article>
+        <article class="post">
+          <div>
+            <h3 class="post__title">Nothern mountain</h3>
+            <p class="post__place">Noth country</p>
+            <p class="post__discription">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione possimus, magni
+              dicta itaque adipisci assumenda quisquam dolorem eligendi amet vero fugit blanditiis
+              debitis nam esse nesciunt cumque impedit. Impedit, dolores voluptatibus placeat est
+            </p>
+            <p class="post__dscr">
+              dicta itaque adipisci assumenda quisquam dolorem eligendi amet vero fugit blanditiis
+              debitis nam esse nesciunt cumque impedit. Impedit, dolores voluptatibus placeat est
+            </p>
+            <button class="button" type="button">Read More</button>
+          </div>
+          <img
+            src="/images/collection/nothern-mountain.jpg"
+            alt="Southern mountain"
+            width="192"
+            height="192"
+          />
+        </article>
+        <article class="post">
+          <div>
+            <h3 class="post__title">Eastern mountain</h3>
+            <p class="post__place">East country</p>
+            <p class="post__discription">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione possimus, magni
+              dicta itaque adipisci assumenda quisquam dolorem eligendi amet vero fugit blanditiis
+              debitis nam esse nesciunt cumque impedit. Impedit, dolores voluptatibus placeat est
+            </p>
+            <p class="post__dscr">
+              dicta itaque adipisci assumenda quisquam dolorem eligendi amet vero fugit blanditiis
+              debitis nam esse nesciunt cumque impedit. Impedit, dolores voluptatibus placeat est
+            </p>
+            <button class="button" type="button">Read More</button>
+          </div>
+          <img
+            src="/images/collection/eastern-mountain.jpg"
+            alt="Southern mountain"
+            width="192"
+            height="192"
+          />
+        </article>
+      </section>
+
+      <section class="container subscibe">
+        <form class="signup-form">
+          <p class="signup-form__title">Subscribe for our news letter</p>
+          <label>
+            <input class="signup-form__input" type="email" name="email" placeholder="E-mail" />
+          </label>
+          <button class="signup-form__button" type="submit">Subscribe</button>
+        </form>
+      </section>
+    </main>
+    <div class="backdrope is-hidden" data-modal>
+      <div class="modal">
+        <h2>Additional information</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, magnam cumque consectetur
+          omnis minima porro labore nemo pariatur beatae numquam laborum iusto asperiores placeat
+          quam autem nesciunt esse veniam recusandae officiis quas sunt fugit. Magni beatae est, sit
+          rerum vel, cupiditate quibusdam veniam error ratione repellendus delectus distinctio?
+          Error, libero.
+        </p>
+        <button class="modal__button" data-modal-close>
+          <svg class="modal__esc-icon" width="11px" height="11px">
+            <use href="/images/icons/symbol-defs.svg#icon-esc"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <footer class="footer container">
+      <a class="logo__link" href="/">trppd_</a>
+      <p class="footer__text">&#169; 2017-2018</p>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link footer__accent" href="#">
+            <svg class="social-list__icon" width="12px" height="12px">
+              <use href="./images/icons/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link footer__accent" href="#">
+            <svg class="social-list__icon" width="12px" height="12px">
+              <use href="./images/icons/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link footer__accent" href="#">
+            <svg class="social-list__icon" width="12px" height="12px">
+              <use href="./images/icons/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./js/changeGrid.js"></script>
+    <script src="./js/heroSlider.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/sortMenu.js"></script>
+    <script src="./js/editorSlider.js"></script>
+  </body>
+</html>

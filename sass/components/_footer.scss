@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 64px;
+  padding-left: 32px;
+  padding-right: 64px;
+  color: $main-black-color;
+  background-color: $main-accent-color;
+
+  &__text {
+    font-size: 10px;
+    font-weight: 700;
+  }
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  &__link {
+    display: block;
+
+    transition: color 250ms $animation-cube;
+
+    &:hover,
+    &:focus {
+      color: $aditional-white-color;
+    }
+  }
+
+  &__icon {
+    fill: currentColor;
+  }
+}

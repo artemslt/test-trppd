@@ -1,0 +1,38 @@
+.above {
+  display: grid;
+  gap: 16px;
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 425px auto;
+    margin-top: 100px;
+    gap: 84px;
+  }
+
+  &__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.21;
+    max-width: 150px;
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    max-width: 320px;
+    line-height: 1.7;
+    font-style: italic;
+    color: $aditional-white-color;
+    margin-bottom: 24px;
+  }
+
+  &__desscription {
+    max-width: 320px;
+    font-size: 10px;
+    line-height: 1.6;
+    max-width: 230px;
+    color: $aditional-white-color;
+    margin-bottom: 16px;
+  }
+
+  &__button {
+    margin-top: 24px;
+  }
+}

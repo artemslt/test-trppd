@@ -1,0 +1,64 @@
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 64px;
+  z-index: 10;
+
+  &__menu {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding-right: 40px;
+  }
+
+  &__link {
+    font-weight: 700;
+    &:hover,
+    :focus {
+      color: $main-accent-color;
+    }
+  }
+
+  &__divider {
+    height: 16px;
+    border-left: 1px solid $main-text-color;
+  }
+}
+
+.logo {
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  width: 256px;
+  background-color: $main-accent-color;
+
+  &__link {
+    font-size: 16px;
+    font-weight: 700;
+    color: $main-black-color;
+    transition: color 250ms $animation-cube;
+
+    &:hover,
+    &:focus {
+      color: $aditional-white-color;
+    }
+  }
+}
+
+.account {
+  &__button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  &__logo {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: $main-black-color;
+  }
+}

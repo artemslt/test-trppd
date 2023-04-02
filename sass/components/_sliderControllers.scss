@@ -1,0 +1,42 @@
+.slider {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  width: 100%;
+  gap: 16px;
+  padding-right: 80px;
+
+  &__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 250ms $animation-cube;
+
+    &:hover,
+    :focus {
+      background-color: $aditional-white-color;
+    }
+  }
+}
+
+.the-line {
+  height: 50%;
+  border-bottom: 2px solid gray;
+}
+.line {
+  height: 50%;
+  border-bottom: 2px solid gray;
+  &__long {
+    flex-grow: 1;
+    padding: 0 5px;
+  }
+  &__short {
+    width: 32px;
+    padding: 0 5px;
+  }
+}
