@@ -63,7 +63,6 @@
         text.innerHTML = `${pictures[counter].text}`;
         sliderCounter.innerHTML = `${counter + 1} / ${pictures.length}`;
       }
-
       if (button.classList.contains('right')) {
         counter++;
         if (counter > pictures.length - 1) {
