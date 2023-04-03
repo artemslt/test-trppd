@@ -58,7 +58,7 @@
         }
         imageDIV.style.backgroundImage =
           'linear-gradient(0deg,rgba(40, 39, 42, 1) 0%, rgba(40, 39, 42, 0.6) 25%, rgba(40, 39, 42, 0.3) 100%),' +
-          `url('/images/hero/${pictures[counter].img}.jpg')`;
+          `url('../../images/hero/${pictures[counter].img}.jpg')`;
         title.innerHTML = `${pictures[counter].title}`;
         text.innerHTML = `${pictures[counter].text}`;
         sliderCounter.innerHTML = `${counter + 1} / ${pictures.length}`;
@@ -71,7 +71,7 @@
         }
         imageDIV.style.backgroundImage =
           'linear-gradient(0deg,rgba(40, 39, 42, 1) 0%, rgba(40, 39, 42, 0.6) 25%, rgba(40, 39, 42, 0.3) 100%),' +
-          `url('/images/hero/${pictures[counter].img}.jpg')`;
+          `url('../../images/hero/${pictures[counter].img}.jpg')`;
         title.innerHTML = `${pictures[counter].title}`;
         text.innerHTML = `${pictures[counter].text}`;
         sliderCounter.innerHTML = `${counter + 1} / ${pictures.length}`;
